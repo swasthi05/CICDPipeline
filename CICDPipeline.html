@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CI/CD Pipeline</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#020617;
+    color:#e5e7eb;
+}
+
+/* HEADER */
+.header{
+    padding:5px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#22c55e,#15803d);
+}
+
+.header h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.header p{
+    font-size:18px;
+    opacity:0.9;
+}
+
+/* MAIN CONTENT */
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.section{
+    background:#020617;
+    border:1px solid #1f2937;
+    padding:30px;
+    border-radius:14px;
+    margin-bottom:30px;
+    transition:0.3s;
+}
+
+.section:hover{
+    border-color:#22c55e;
+    transform:scale(1.02);
+}
+
+.section h2{
+    color:#4ade80;
+    margin-bottom:12px;
+}
+
+.section p{
+    line-height:1.7;
+    font-size:16px;
+}
+
+/* PIPELINE STEPS */
+.pipeline{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.step{
+    background:#020617;
+    border:1px solid #1f2937;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.step span{
+    display:block;
+    font-size:30px;
+    color:#22c55e;
+    margin-bottom:10px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:25px;
+    background:#020617;
+    font-size:14px;
+    color:#9ca3af;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>CI/CD Pipeline</h1>
+    <p>Automating Software Delivery in DevOps</p>
+</div>
+
+<div class="container">
+
+    <div class="section">
+        <h2>What is CI/CD?</h2>
+        <p>
+            CI/CD stands for Continuous Integration and Continuous Deployment.
+            It is a DevOps practice that automates the process of integrating,
+            testing, and deploying code to deliver software faster and reliably.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Why CI/CD Pipeline is Important</h2>
+        <p>
+            CI/CD pipeline reduces manual work, detects bugs early,
+            improves software quality, and allows teams to release
+            updates frequently with minimum risk.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>CI/CD Pipeline Stages</h2>
+        <div class="pipeline">
+            <div class="step">
+                <span>1</span>
+                <p>Code Commit</p>
+            </div>
+            <div class="step">
+                <span>2</span>
+                <p>Build</p>
+            </div>
+            <div class="step">
+                <span>3</span>
+                <p>Testing</p>
+            </div>
+            <div class="step">
+                <span>4</span>
+                <p>Deployment</p>
+            </div>
+            <div class="step">
+                <span>5</span>
+                <p>Monitoring</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>CI/CD in DevOps</h2>
+        <p>
+            In DevOps, CI/CD pipeline acts as the backbone of automation.
+            It connects tools like Git, Jenkins, Docker, and cloud platforms
+            to ensure fast, stable, and continuous software delivery.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 | CI/CD Pipeline | DevOps Automation
+</footer>
+
+</body>
+</html>
